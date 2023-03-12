@@ -1,9 +1,8 @@
 # INSTRUCTIONS:
 1. Open a terminal on kali linux and install Bettercap tool
 
-2. For installation run
-&emsp;&emsp;&emsp;$ sudo su <br>
-&emsp;&emsp;&emsp;$ apt-get install bettercap
+2. For installation run <br>
+&emsp;&emsp;&emsp;$ sudo apt-get install bettercap
 
 3. Or clone the git repository of Bettercap from github to your kali machine
 
