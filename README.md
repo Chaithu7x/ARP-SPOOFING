@@ -18,11 +18,11 @@
 5. Now set the fullduplex mode to true  <br>
 &emsp;&emsp;&emsp;$ set arp.spoof.fullduplex true
 
-6. Then give the targets by seperating with commas
+6. Then give the targets by seperating with commas <br>
 &emsp;&emsp;&emsp;$ set arp.spoof.targets ip1,ip2,ip3....
 
 7. Now run the following commands to start the attack <br>
-&emsp;&emsp;&emsp;$ arp.spoof.on
+&emsp;&emsp;&emsp;$ arp.spoof.on <br>
 &emsp;&emsp;&emsp;$ net.sniff.on
 
 8. Now check the attack by using any browser, if the bettercap is capturing the packets then the attack is working properly.
