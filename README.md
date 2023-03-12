@@ -27,7 +27,7 @@
 
 8. Now check the attack by using any browser, if the bettercap is capturing the packets then the attack is working properly.
 
-9. To exit the attack run
+9. To exit the attack run <br>
 &emsp;&emsp;&emsp;$ exit
 
 10. That's it, you did it.
