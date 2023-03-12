@@ -1,7 +1,30 @@
-###INSTRUCTIONS:
+# INSTRUCTIONS:
 1. Open the kernal on kali linux and install Bettercap tool
 
 2. For installation run
-      sudo apt-get install bettercap
+&emsp;&emsp;&emsp;$ sudo su <br>
+&emsp;&emsp;&emsp;$ apt-get install bettercap
 
 3. Or 
+
+4. Now open the sniff.cap file, and replace "0.0.0.0" with target ip address
+
+5. To know all the ip of systems in our network, <br>
+&emsp;&emsp;&emsp;Open another terminal <br>
+&emsp;&emsp;&emsp;$ bettercap <br>
+&emsp;&emsp;&emsp;$ net.probe on <br>
+&emsp;&emsp;&emsp;We can see all the ip address in our network
+
+6. Now run the command <br>
+&emsp;&emsp;&emsp;$ bettercap -iface eth0 -caplet sniff.cap
+
+7. To exit spoofing run, <br>
+&emsp;&emsp;&emsp;$ exit
+
+8. After exiting it automatically set all the fields to defaults (ie, previous values)
+
+9. To check whether there is ARP poisioning going on in our network <br>
+&emsp;&emsp;&emsp; Open terminal ( In Windows ) <br>
+&emsp;&emsp;&emsp; $ arp -a
+
+10. If any two ip address have same MAC address , then ARP poisioning is performed in our network
